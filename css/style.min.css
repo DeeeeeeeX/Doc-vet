@@ -29,7 +29,9 @@ a {
 
 .nav .geo {
   display: inline-block;
-  margin: 15px 12px 15px 0;
+  margin: 21px 8px 15px 0;
+  width: 12px;
+  height: 17px;
 }
 
 .nav .nav_1 {
@@ -115,11 +117,16 @@ a {
 
 .nav .clock {
   display: inline-block;
+  width: 22px;
+  height: 22px;
   margin: 17px 0 13px 57px;
 }
 
 .nav .tel {
-  margin: 16px 0 18px 57px;
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  margin: 18px 0 18px 57px;
 }
 
 .undernav {
@@ -288,6 +295,7 @@ h2 {
   height: 388px;
   left: 722px;
   top: 100px;
+  overflow: hidden;
 }
 
 .work_img_1 {
@@ -298,6 +306,7 @@ h2 {
   top: 102px;
   -webkit-transform: rotate(-42.5deg);
           transform: rotate(-42.5deg);
+  overflow: hidden;
 }
 
 .work_img_2 {
@@ -306,6 +315,7 @@ h2 {
   height: 198px;
   left: 1094px;
   top: 400px;
+  overflow: hidden;
 }
 
 .poloska {
@@ -543,6 +553,8 @@ h2 {
 }
 
 .choose_bg_2 {
+  display: none;
+  overflow-x: hidden;
   position: absolute;
   width: 558px;
   height: 931px;
@@ -650,5 +662,262 @@ h2 {
   width: 470px;
   height: 548px;
   margin-top: 224px;
+  position: relative;
+}
+
+.question .form h5 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #1B274A;
+}
+
+.question .form span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1B274A;
+  display: block;
+  margin: 24px 0 14px 0;
+}
+
+.question .form .form_descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B274A;
+  margin: 32px 0 48px 0;
+}
+
+.question .form .in_input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(27, 39, 74, 0.32);
+  display: block;
+  width: 470px;
+  height: 34px;
+  margin-top: 24px;
+  border: none;
+  border-bottom: 1px solid rgba(27, 39, 74, 0.32);
+}
+
+.question .form .in_input_2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  width: 470px;
+  height: 78px;
+  border: none;
+  border-bottom: 1px solid rgba(27, 39, 74, 0.32);
+}
+
+.question .form .galochka {
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background: #FF7800;
+  border-radius: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.question .form .galochka img {
+  display: block;
+  width: 16px;
+  height: 12px;
+}
+
+.question .form .soglasie {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 470px;
+  height: 29px;
+}
+
+.question .form .agree {
+  display: block;
+  width: 422px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(27, 39, 74, 0.64);
+  margin: 0 0 0 24px;
+}
+
+.question .form .agree a {
+  color: #FF7800;
+}
+
+.question .form button {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  width: 184px;
+  height: 64px;
+  background: #FF7800;
+  border-radius: 4px;
+  border: none;
+}
+
+.question .form .bg_question_plusik {
+  position: absolute;
+  right: -137px;
+  top: 450px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(56, 151, 240, 0.1);
+}
+
+.social .container {
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FF7800;
+  border-bottom: 3px solid #FFA14D;
+}
+
+.social .container img {
+  display: block;
+  margin-right: 24px;
+}
+
+.social .container .social_1 {
+  display: block;
+  width: 111px;
+  height: 31px;
+  margin-right: 65px;
+}
+
+.social .container .social_2 {
+  display: block;
+  width: 158px;
+  height: 31px;
+  margin-right: 64px;
+}
+
+.social .container .social_4 {
+  display: block;
+  width: 88px;
+  height: 31px;
+}
+
+.map {
+  padding-top: 48px;
+  height: 702px;
+  background: url("../img/Map_bg.png") center center/cover no-repeat;
+}
+
+.map .map_card {
+  padding: 64px 100px;
+  width: 770px;
+  height: 606px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -10px 4px 32px rgba(0, 0, 0, 0.08);
+          box-shadow: -10px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.map h4 {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #1B274A;
+}
+
+.map .street {
+  margin-left: 18px;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 271px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #1B274A;
+}
+
+.map .divider {
+  width: 69px;
+  height: 2px;
+  background: rgba(255, 195, 141, 0.64);
+  margin-top: 18px;
+  border-radius: 1px;
+}
+
+.map .stantion {
+  margin: 32px 0 18px 0;
+}
+
+.map .stantion_descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #6D758B;
+  margin: 18px 0;
+}
+
+.map h5 {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #1B274A;
+}
+
+.map .route {
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FF7800;
+}
+
+.map .route img {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.footer {
+  height: 415px;
+  background: url("../img/footer 1.png") center center/cover no-repeat;
 }
 /*# sourceMappingURL=style.min.css.map */

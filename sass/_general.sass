@@ -15,7 +15,9 @@ a
 
     .geo
         display: inline-block
-        margin: 15px 12px 15px 0
+        margin: 21px 8px 15px 0
+        width: 12px
+        height: 17px
     .nav
         
         &_1
@@ -78,9 +80,14 @@ a
     
     .clock
         display: inline-block
+        width: 22px
+        height: 22px
         margin: 17px 0 13px 57px
     .tel
-        margin: 16px 0 18px 57px
+        display: inline-block
+        width: 16px
+        height: 17px
+        margin: 18px 0 18px 57px
 
 .undernav
     display: flex
@@ -200,6 +207,7 @@ h2
     height: 388px
     left: 722px
     top: 100px
+    overflow: hidden
 
 .work_img_1
     position: absolute
@@ -208,6 +216,7 @@ h2
     left: 566px
     top: 102px
     transform: rotate(-42.5deg)
+    overflow: hidden
 
 .work_img_2
     position: absolute
@@ -215,6 +224,7 @@ h2
     height: 198px
     left: 1094px
     top: 400px
+    overflow: hidden
 
 .poloska
     margin-top: 64px
@@ -382,6 +392,8 @@ h2
     z-index: -10
 
 .choose_bg_2
+    display: none
+    overflow-x: hidden
     position: absolute
     width: 558px
     height: 931px
@@ -462,5 +474,183 @@ h2
         width: 470px
         height: 548px
         margin-top: 224px
+        position: relative
+        h5
+            font-weight: 500
+            font-size: 22px
+            line-height: 33px
+            color: $blue
+        span
+            font-weight: 400
+            font-size: 14px
+            line-height: 16px
+            color: $blue
+            display: block
+            margin: 24px 0 14px 0
+        .form_descr
+            font-weight: 400
+            font-size: 16px
+            line-height: 24px
+            color: $blue
+            margin: 32px 0 48px 0
+        .in_input
+            font-weight: 400
+            font-size: 16px
+            line-height: 24px
+            color: rgba(27, 39, 74, 0.32)
+            display: block
+            width: 470px
+            height: 34px
+            margin-top: 24px
+            border: none
+            border-bottom: 1px solid rgba(27, 39, 74, 0.32)
+            &_2
+                font-weight: 300
+                font-size: 16px
+                line-height: 20px
+                display: block
+                width: 470px
+                height: 78px
+                border: none
+                border-bottom: 1px solid rgba(27, 39, 74, 0.32)
+        .galochka
+            margin-top: 0
+            display: flex
+            width: 24px
+            height: 24px
+            background: #FF7800
+            border-radius: 8px
+            justify-content: center
+            align-items: center
+            img
+                display: block
 
+                width: 16px
+                height: 12px
+        .soglasie
+            margin-top: 48px
+            display: flex
+            width: 470px
+            height: 29px
+        .agree
+            display: block
+            width: 422px
+            height: 28px
+            font-weight: 400
+            font-size: 12px
+            line-height: 14px
+            color: rgba(27, 39, 74, 0.64)
+            margin: 0 0 0 24px
+            a
+                color: $orange
+        button
+            margin-top: 32px
+            font-weight: 500
+            font-size: 18px
+            line-height: 27px
+            display: flex
+            align-items: center
+            justify-content: center
+            color: #FFFFFF
+            width: 184px
+            height: 64px
+            background: #FF7800
+            border-radius: 4px
+            border: none
+        .bg_question_plusik
+            position: absolute
+            right: -137px
+            top: 450px
 
+.social
+    display: flex
+    align-items: center
+    background-color: rgba(56, 151, 240, 0.1)
+    .container
+        height: 96px
+        display: flex
+        justify-content: center
+        align-items: center
+        font-weight: 500
+        font-size: 24px
+        line-height: 32px
+        color: $orange
+        border-bottom: 3px solid $orangel
+        img
+            display: block
+            margin-right: 24px
+        .social
+            &_1
+                display: block
+                width: 111px
+                height: 31px
+                margin-right: 65px
+            &_2
+                display: block
+                width: 158px
+                height: 31px
+                margin-right: 64px
+            &_4
+                display: block
+                width: 88px
+                height: 31px
+
+.map
+    padding-top: 48px
+    height: 702px
+    background: url('../img/Map_bg.png') center center/cover no-repeat
+    .map_card
+        padding: 64px 100px
+        width: 770px
+        height: 606px
+        background: #FFFFFF
+        box-shadow: -10px 4px 32px rgba(0, 0, 0, 0.08)
+        border-radius: 10px
+    h4
+        margin-bottom: 32px
+        font-weight: 500
+        font-size: 32px
+        line-height: 37px
+        color: $blue
+    .street
+        margin-left: 18px
+        vertical-align: bottom
+        display: inline-block
+        width: 271px
+        height: 24px
+        font-weight: 500
+        font-size: 22px
+        line-height: 33px
+        color: #1B274A
+    .divider
+        width: 69px
+        height: 2px
+        background: rgba(255, 195, 141, 0.64)
+        margin-top: 18px
+        border-radius: 1px
+    .stantion
+        margin: 32px 0 18px 0
+        &_descr
+            font-weight: 400
+            font-size: 16px
+            line-height: 23px
+            color: #6D758B
+            margin: 18px 0
+    h5
+        margin-top: 32px
+        font-weight: 500
+        font-size: 22px
+
+        color: $blue
+    .route
+        margin-top: 48px
+        font-weight: 500
+        font-size: 22px
+
+        color: $orange
+        img
+            display: inline-block
+            margin-left: 18px
+.footer
+    height: 415px
+    background: url('../img/footer 1.png') center center/cover no-repeat
